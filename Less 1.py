@@ -171,41 +171,6 @@ def List_sum (first_list, second_list):
 
 
 
-L_list1=LinkedList()
-n11=Node(10)
-n12=Node(11)
-n13=Node(12)
-n14=Node(13)
-n15=Node(14)
-
-L_list2=LinkedList()
-n21=Node(1)
-n22=Node(3)
-n23=Node(4)
-n24=Node(5)
-n25=Node(6)
-
-L_list1.add_in_tail(n11)
-L_list1.add_in_tail(n12)
-L_list1.add_in_tail(n13)
-L_list1.add_in_tail(n14)
-L_list1.add_in_tail(n15)
-
-L_list2.add_in_tail(n21)
-L_list2.add_in_tail(n22)
-L_list2.add_in_tail(n23)
-L_list2.add_in_tail(n24)
-L_list2.add_in_tail(n25)
-
-# L_list1.print_all_nodes()
-print('----------------')
-# L_list2.print_all_nodes()
-
-sum = List_sum(L_list1, L_list2)
-sum.print_all_nodes()
-
-
-
 
 
 
